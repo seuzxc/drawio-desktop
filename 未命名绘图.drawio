@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-30T11:23:09.930Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" version="20.6.0" etag="q8uwrKuKqEySkQG1YqlM" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-30T11:48:10.422Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" version="20.6.0" etag="QWWuLjE9rFSuzzI4N72O" type="github">
   <diagram id="R3_jXRTF3GSerieOdbTE" name="第 1 页">
     <mxGraphModel dx="946" dy="513" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -27,16 +27,88 @@
             <mxGeometry x="370" y="40" width="80" height="20" as="geometry" />
           </mxCell>
         </UserObject>
-        <UserObject label="redisDb" placeholders="1" name="Variable" id="Ee01QUMIhsYpiaEzoRiF-12">
+        <UserObject label="redisDb0" placeholders="1" name="Variable" id="Ee01QUMIhsYpiaEzoRiF-12">
           <mxCell style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
             <mxGeometry x="210" y="90" width="80" height="20" as="geometry" />
           </mxCell>
         </UserObject>
-        <UserObject label="redisDb" placeholders="1" name="Variable" id="Ee01QUMIhsYpiaEzoRiF-13">
+        <UserObject label="redisDb15" placeholders="1" name="Variable" id="Ee01QUMIhsYpiaEzoRiF-13">
           <mxCell style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
-            <mxGeometry x="670" y="90" width="80" height="20" as="geometry" />
+            <mxGeometry x="645" y="90" width="80" height="20" as="geometry" />
           </mxCell>
         </UserObject>
+        <mxCell id="Ee01QUMIhsYpiaEzoRiF-14" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="100" y="130" width="310" height="240" as="geometry" />
+        </mxCell>
+        <UserObject label="dict" placeholders="1" name="Variable" id="Ee01QUMIhsYpiaEzoRiF-16">
+          <mxCell style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+            <mxGeometry x="210" y="130" width="80" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="Ee01QUMIhsYpiaEzoRiF-17" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="535" y="130" width="310" height="240" as="geometry" />
+        </mxCell>
+        <UserObject label="dict" placeholders="1" name="Variable" id="Ee01QUMIhsYpiaEzoRiF-18">
+          <mxCell style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+            <mxGeometry x="645" y="130" width="80" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="Ee01QUMIhsYpiaEzoRiF-19" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;" vertex="1" parent="1">
+          <mxGeometry x="110" y="200" width="130" height="110" as="geometry" />
+        </mxCell>
+        <UserObject label="ht_table" placeholders="1" name="Variable" id="Ee01QUMIhsYpiaEzoRiF-20">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+            <mxGeometry x="130" y="200" width="80" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="Ee01QUMIhsYpiaEzoRiF-21" value="dictEntry" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#66FF66;" vertex="1" parent="1">
+          <mxGeometry x="110" y="245" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ee01QUMIhsYpiaEzoRiF-22" value="dictEntry" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#66FF66;" vertex="1" parent="1">
+          <mxGeometry x="180" y="245" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ee01QUMIhsYpiaEzoRiF-23" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;" vertex="1" parent="1">
+          <mxGeometry x="250" y="200" width="130" height="110" as="geometry" />
+        </mxCell>
+        <UserObject label="ht_table" placeholders="1" name="Variable" id="Ee01QUMIhsYpiaEzoRiF-24">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+            <mxGeometry x="270" y="200" width="80" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="Ee01QUMIhsYpiaEzoRiF-25" value="dictEntry" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#66FF66;" vertex="1" parent="1">
+          <mxGeometry x="250" y="245" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ee01QUMIhsYpiaEzoRiF-26" value="dictEntry" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#66FF66;" vertex="1" parent="1">
+          <mxGeometry x="320" y="245" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ee01QUMIhsYpiaEzoRiF-27" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;" vertex="1" parent="1">
+          <mxGeometry x="550" y="200" width="130" height="110" as="geometry" />
+        </mxCell>
+        <UserObject label="ht_table" placeholders="1" name="Variable" id="Ee01QUMIhsYpiaEzoRiF-28">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+            <mxGeometry x="570" y="200" width="80" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="Ee01QUMIhsYpiaEzoRiF-29" value="dictEntry" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#66FF66;" vertex="1" parent="1">
+          <mxGeometry x="550" y="245" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ee01QUMIhsYpiaEzoRiF-30" value="dictEntry" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#66FF66;" vertex="1" parent="1">
+          <mxGeometry x="620" y="245" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ee01QUMIhsYpiaEzoRiF-31" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;" vertex="1" parent="1">
+          <mxGeometry x="697" y="200" width="130" height="110" as="geometry" />
+        </mxCell>
+        <UserObject label="ht_table" placeholders="1" name="Variable" id="Ee01QUMIhsYpiaEzoRiF-32">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+            <mxGeometry x="717" y="200" width="80" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="Ee01QUMIhsYpiaEzoRiF-33" value="dictEntry" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#66FF66;" vertex="1" parent="1">
+          <mxGeometry x="697" y="245" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ee01QUMIhsYpiaEzoRiF-34" value="dictEntry" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#66FF66;" vertex="1" parent="1">
+          <mxGeometry x="767" y="245" width="50" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
