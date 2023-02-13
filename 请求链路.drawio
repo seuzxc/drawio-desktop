@@ -1,1 +1,131 @@
-<mxfile host="app.diagrams.net" modified="2023-02-13T02:34:22.052Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" version="20.8.13" etag="P0_MdLVYgDCt82wB5Tdi" type="github"><diagram name="第 1 页" id="RaWA8UTJIXFl5KLHHMrV">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-02-13T03:11:02.103Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="MOQb2UhSwspqb12G5QVK" version="20.8.13" type="github">
+  <diagram name="第 1 页" id="RaWA8UTJIXFl5KLHHMrV">
+    <mxGraphModel dx="1060" dy="572" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="qSfjKtdKygnEdZcx3URk-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.1;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="qSfjKtdKygnEdZcx3URk-4" target="qSfjKtdKygnEdZcx3URk-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="460" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qSfjKtdKygnEdZcx3URk-34" value="正常操作的所有请求" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="qSfjKtdKygnEdZcx3URk-29">
+          <mxGeometry x="-0.4816" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qSfjKtdKygnEdZcx3URk-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.95;exitY=0.97;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="qSfjKtdKygnEdZcx3URk-4" target="qSfjKtdKygnEdZcx3URk-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qSfjKtdKygnEdZcx3URk-37" value="埋点配置的请求数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="qSfjKtdKygnEdZcx3URk-36">
+          <mxGeometry x="-0.2456" y="1" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qSfjKtdKygnEdZcx3URk-4" value="手机app/小程序" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.mobile;" vertex="1" parent="1">
+          <mxGeometry x="280" y="250" width="50" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="qSfjKtdKygnEdZcx3URk-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="qSfjKtdKygnEdZcx3URk-5" target="qSfjKtdKygnEdZcx3URk-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qSfjKtdKygnEdZcx3URk-35" value="正常操作的所有请求" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="qSfjKtdKygnEdZcx3URk-28">
+          <mxGeometry x="-0.2205" y="-3" relative="1" as="geometry">
+            <mxPoint x="10" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qSfjKtdKygnEdZcx3URk-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qSfjKtdKygnEdZcx3URk-5" target="qSfjKtdKygnEdZcx3URk-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="305" y="190" />
+              <mxPoint x="543" y="190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qSfjKtdKygnEdZcx3URk-41" value="埋点数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="qSfjKtdKygnEdZcx3URk-40">
+          <mxGeometry x="-0.4754" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qSfjKtdKygnEdZcx3URk-5" value="pc/h5浏览器等" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.pc;" vertex="1" parent="1">
+          <mxGeometry x="255" y="70" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="qSfjKtdKygnEdZcx3URk-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qSfjKtdKygnEdZcx3URk-8" target="qSfjKtdKygnEdZcx3URk-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="180" y="300" />
+              <mxPoint x="180" y="105" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qSfjKtdKygnEdZcx3URk-12" value="接触我们的服务的方式" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="qSfjKtdKygnEdZcx3URk-11">
+          <mxGeometry x="-0.32" y="-1" relative="1" as="geometry">
+            <mxPoint y="42" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qSfjKtdKygnEdZcx3URk-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qSfjKtdKygnEdZcx3URk-8" target="qSfjKtdKygnEdZcx3URk-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="220" y="300" />
+              <mxPoint x="220" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qSfjKtdKygnEdZcx3URk-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="qSfjKtdKygnEdZcx3URk-8" target="qSfjKtdKygnEdZcx3URk-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qSfjKtdKygnEdZcx3URk-8" value="人/用户" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.android.contact_badge_normal;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="280" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qSfjKtdKygnEdZcx3URk-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="qSfjKtdKygnEdZcx3URk-9" target="qSfjKtdKygnEdZcx3URk-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="460" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qSfjKtdKygnEdZcx3URk-31" value="完成目的发送特定请求" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="qSfjKtdKygnEdZcx3URk-30">
+          <mxGeometry x="-0.8985" y="1" relative="1" as="geometry">
+            <mxPoint x="103" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qSfjKtdKygnEdZcx3URk-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="qSfjKtdKygnEdZcx3URk-9" target="qSfjKtdKygnEdZcx3URk-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qSfjKtdKygnEdZcx3URk-43" value="可能有部分埋点数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="qSfjKtdKygnEdZcx3URk-42">
+          <mxGeometry x="0.1546" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qSfjKtdKygnEdZcx3URk-9" value="脚本/hook" style="shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;imageAspect=0;image=img/clipart/Gear_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="270" y="410" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qSfjKtdKygnEdZcx3URk-16" value="埋点服务器" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.server_storage;" vertex="1" parent="1">
+          <mxGeometry x="490" y="470" width="105" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="qSfjKtdKygnEdZcx3URk-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qSfjKtdKygnEdZcx3URk-18" target="qSfjKtdKygnEdZcx3URk-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qSfjKtdKygnEdZcx3URk-45" value="转发业务方" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="qSfjKtdKygnEdZcx3URk-44">
+          <mxGeometry x="-0.4261" y="-1" relative="1" as="geometry">
+            <mxPoint y="24" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qSfjKtdKygnEdZcx3URk-18" value="&lt;b&gt;&lt;font color=&quot;#ff3333&quot;&gt;网关&lt;/font&gt;&lt;/b&gt;" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.load_balancer;" vertex="1" parent="1">
+          <mxGeometry x="480" y="90" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qSfjKtdKygnEdZcx3URk-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qSfjKtdKygnEdZcx3URk-24" target="qSfjKtdKygnEdZcx3URk-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qSfjKtdKygnEdZcx3URk-47" value="调用风控检测" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="qSfjKtdKygnEdZcx3URk-46">
+          <mxGeometry x="0.1707" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qSfjKtdKygnEdZcx3URk-24" value="用户/直播/语音等业务方服务" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.server;" vertex="1" parent="1">
+          <mxGeometry x="660" y="90" width="90" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="qSfjKtdKygnEdZcx3URk-25" value="风控服务" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.server;" vertex="1" parent="1">
+          <mxGeometry x="770" y="280" width="90" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
