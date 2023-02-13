@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-13T03:11:02.103Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="MOQb2UhSwspqb12G5QVK" version="20.8.13" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-13T03:18:22.634Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="5cNArUExdbyVtR1YG5zs" version="20.8.13" type="github">
   <diagram name="第 1 页" id="RaWA8UTJIXFl5KLHHMrV">
     <mxGraphModel dx="1060" dy="572" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -94,10 +94,10 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qSfjKtdKygnEdZcx3URk-9" value="脚本/hook" style="shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;imageAspect=0;image=img/clipart/Gear_128x128.png" vertex="1" parent="1">
+        <mxCell id="qSfjKtdKygnEdZcx3URk-9" value="&lt;font color=&quot;#7ea6e0&quot;&gt;脚本/hook&lt;/font&gt;" style="shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;imageAspect=0;image=img/clipart/Gear_128x128.png" vertex="1" parent="1">
           <mxGeometry x="270" y="410" width="60" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="qSfjKtdKygnEdZcx3URk-16" value="埋点服务器" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.server_storage;" vertex="1" parent="1">
+        <mxCell id="qSfjKtdKygnEdZcx3URk-16" value="&lt;font color=&quot;#ff3333&quot;&gt;&lt;b&gt;埋点服务器&lt;/b&gt;&lt;/font&gt;" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.server_storage;" vertex="1" parent="1">
           <mxGeometry x="490" y="470" width="105" height="105" as="geometry" />
         </mxCell>
         <mxCell id="qSfjKtdKygnEdZcx3URk-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qSfjKtdKygnEdZcx3URk-18" target="qSfjKtdKygnEdZcx3URk-24">
@@ -119,10 +119,10 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qSfjKtdKygnEdZcx3URk-24" value="用户/直播/语音等业务方服务" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.server;" vertex="1" parent="1">
+        <mxCell id="qSfjKtdKygnEdZcx3URk-24" value="&lt;font color=&quot;#ff3333&quot;&gt;用户/直播/语音等业务方服务&lt;/font&gt;" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.server;" vertex="1" parent="1">
           <mxGeometry x="660" y="90" width="90" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="qSfjKtdKygnEdZcx3URk-25" value="风控服务" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.server;" vertex="1" parent="1">
+        <mxCell id="qSfjKtdKygnEdZcx3URk-25" value="&lt;font color=&quot;#ff3333&quot;&gt;风控服务&lt;/font&gt;" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.server;" vertex="1" parent="1">
           <mxGeometry x="770" y="280" width="90" height="100" as="geometry" />
         </mxCell>
       </root>
