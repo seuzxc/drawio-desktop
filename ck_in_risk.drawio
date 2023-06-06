@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-06T17:49:26.745Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="mHRyJ9WvkCbo44Rhli3_" version="21.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-06T17:51:48.569Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="kxYKE7d2-9LbaZyGZ936" version="21.0.6" type="github">
   <diagram name="第 1 页" id="VLbk_O89-t44V-mn6kPs">
     <mxGraphModel dx="954" dy="518" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -28,10 +28,15 @@
           <mxGeometry x="170" y="290" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="JutiILzrICxIAbZ5VbDs-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JutiILzrICxIAbZ5VbDs-7" target="JutiILzrICxIAbZ5VbDs-11">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="440" y="250" />
+              <mxPoint x="440" y="250" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="JutiILzrICxIAbZ5VbDs-7" value="kafka" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="294" y="220" width="76" height="60" as="geometry" />
+          <mxGeometry x="294" y="225" width="76" height="60" as="geometry" />
         </mxCell>
         <mxCell id="JutiILzrICxIAbZ5VbDs-11" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;flink集群&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;gradientColor=#b3b3b3;align=left;" vertex="1" parent="1">
           <mxGeometry x="460" y="110" width="240" height="290" as="geometry" />
@@ -58,6 +63,9 @@
         <mxCell id="JutiILzrICxIAbZ5VbDs-16" value="hbase快照同步" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="600" y="130" width="80" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="JutiILzrICxIAbZ5VbDs-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.517;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="JutiILzrICxIAbZ5VbDs-17" target="JutiILzrICxIAbZ5VbDs-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="JutiILzrICxIAbZ5VbDs-17" value="clickhouse" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#fa6800;strokeColor=#C73500;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="620" y="220" width="60" height="80" as="geometry" />
         </mxCell>
@@ -79,7 +87,7 @@
         <mxCell id="JutiILzrICxIAbZ5VbDs-27" value="risk-console" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;flipV=1;" vertex="1" parent="1">
           <mxGeometry x="755" y="317.5" width="70" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="JutiILzrICxIAbZ5VbDs-28" value="payment-data" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;flipV=1;" vertex="1" parent="1">
+        <mxCell id="JutiILzrICxIAbZ5VbDs-28" value="离线策略(flink任务)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;flipV=1;" vertex="1" parent="1">
           <mxGeometry x="755" y="360" width="70" height="35" as="geometry" />
         </mxCell>
       </root>
