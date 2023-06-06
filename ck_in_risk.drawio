@@ -1,1 +1,88 @@
-<mxfile host="app.diagrams.net" modified="2023-06-06T17:32:05.071Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" version="21.0.6" etag="Yw9SFYNQhz5DJbWVYICE" type="github"><diagram name="第 1 页" id="VLbk_O89-t44V-mn6kPs">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-06-06T17:49:26.745Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="mHRyJ9WvkCbo44Rhli3_" version="21.0.6" type="github">
+  <diagram name="第 1 页" id="VLbk_O89-t44V-mn6kPs">
+    <mxGraphModel dx="954" dy="518" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="JutiILzrICxIAbZ5VbDs-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="1">
+          <mxGeometry x="150" y="110" width="270" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="JutiILzrICxIAbZ5VbDs-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JutiILzrICxIAbZ5VbDs-2" target="JutiILzrICxIAbZ5VbDs-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="262" y="200" />
+              <mxPoint x="262" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JutiILzrICxIAbZ5VbDs-2" value="mysql" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="170" y="160" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JutiILzrICxIAbZ5VbDs-5" value="采集数据" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="110" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JutiILzrICxIAbZ5VbDs-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="JutiILzrICxIAbZ5VbDs-6" target="JutiILzrICxIAbZ5VbDs-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JutiILzrICxIAbZ5VbDs-6" value="应用" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="170" y="290" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JutiILzrICxIAbZ5VbDs-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JutiILzrICxIAbZ5VbDs-7" target="JutiILzrICxIAbZ5VbDs-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JutiILzrICxIAbZ5VbDs-7" value="kafka" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="294" y="220" width="76" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JutiILzrICxIAbZ5VbDs-11" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;flink集群&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;gradientColor=#b3b3b3;align=left;" vertex="1" parent="1">
+          <mxGeometry x="460" y="110" width="240" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="JutiILzrICxIAbZ5VbDs-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="JutiILzrICxIAbZ5VbDs-13" target="JutiILzrICxIAbZ5VbDs-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JutiILzrICxIAbZ5VbDs-13" value="alink离线数据挖掘" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="480" y="130" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="JutiILzrICxIAbZ5VbDs-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JutiILzrICxIAbZ5VbDs-14" target="JutiILzrICxIAbZ5VbDs-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JutiILzrICxIAbZ5VbDs-14" value="flink流任务" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="490" y="310" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="JutiILzrICxIAbZ5VbDs-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.35;entryY=-0.037;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="JutiILzrICxIAbZ5VbDs-16" target="JutiILzrICxIAbZ5VbDs-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="640" y="207" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JutiILzrICxIAbZ5VbDs-16" value="hbase快照同步" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="600" y="130" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="JutiILzrICxIAbZ5VbDs-17" value="clickhouse" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#fa6800;strokeColor=#C73500;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="620" y="220" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JutiILzrICxIAbZ5VbDs-21" value="应用服务" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="730" y="110" width="120" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="JutiILzrICxIAbZ5VbDs-22" value="risk-data" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;flipV=1;" vertex="1" parent="1">
+          <mxGeometry x="755" y="120" width="70" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="JutiILzrICxIAbZ5VbDs-23" value="risk-insight" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="755" y="160" width="70" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="JutiILzrICxIAbZ5VbDs-25" value="risk-metabase" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;flipV=1;" vertex="1" parent="1">
+          <mxGeometry x="755" y="205" width="70" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="JutiILzrICxIAbZ5VbDs-26" value="risk-shoot" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;flipV=1;" vertex="1" parent="1">
+          <mxGeometry x="755" y="275" width="70" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="JutiILzrICxIAbZ5VbDs-27" value="risk-console" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;flipV=1;" vertex="1" parent="1">
+          <mxGeometry x="755" y="317.5" width="70" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="JutiILzrICxIAbZ5VbDs-28" value="payment-data" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;flipV=1;" vertex="1" parent="1">
+          <mxGeometry x="755" y="360" width="70" height="35" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
